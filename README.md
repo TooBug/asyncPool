@@ -5,7 +5,7 @@
 
 A library to arrange async tasks with multi threads.
 
-For example, you have 100 numbers in an Array, with each element, you want to request an url and then do something with the result.
+For example, you have several numbers in an Array, with each element, you want to request an url and then do something with the result.
 
 You can just write like this:
 
