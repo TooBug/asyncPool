@@ -1,0 +1,24 @@
+{
+  "name": "asyncpool",
+  "version": "0.1.0",
+  "description": "async pool to arrange async tasks with multi threads",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TooBug/asyncPool"
+  },
+  "keywords": [
+    "async",
+    "task",
+    "thread"
+  ],
+  "author": "TooBug",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TooBug/asyncPool/issues"
+  },
+  "homepage": "https://github.com/TooBug/asyncPool"
+}
