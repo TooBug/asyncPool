@@ -3,9 +3,13 @@
 [![npm](http://img.shields.io/npm/v/asyncpool.svg)](https://www.npmjs.com/package/asyncpool)
 [![npm](http://img.shields.io/npm/l/asyncpool.svg)](https://www.npmjs.com/package/asyncpool)
 
+## What?
+
 A library to arrange async tasks with multi threads.
 
 For example, you have several numbers in an Array, with each element, you want to request an url and then do something with the result.
+
+## How?
 
 You can just write like this:
 
@@ -46,3 +50,13 @@ all done.
 See, all the tasks are run in order.
 
 You can use `asyncPool(n,arr,func,func)` to use the multi thread, which means there would be `n` tasks running at the same time.
+
+## Changelog
+
+### v0.1.1 2015-02-09
+
+- bugfix: when accessing the task array after processing, it's poped and got nothing.
+
+### v0.1.0 2014-12-26
+
+- first release
